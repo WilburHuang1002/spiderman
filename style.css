@@ -1,0 +1,50 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+body {
+  background: rgb(230, 186, 173);
+  background-image: url("https://th.bing.com/th/id/R.8f0de7daf2a319a80cc80333bf35d9ed?rik=FgNspQZgJYcNtw&riu=http%3a%2f%2fwww.movie-list.com%2fblog%2fwp-content%2fuploads%2f2015%2f02%2fspider-man.jpg&ehk=Rt0uxLUcCYL92FQ9B5bMQ5daFW%2fnXHVzPcZoppL%2fHKo%3d&risl=&pid=ImgRaw&r=0");
+  background-repeat:
+}
+
+p{
+  color:orange;
+}
+h1{
+  color:orange ;
+}
+h2{
+  color:orange;
+}
+
+.table img{
+  height: 500px;
+   width: 500px; 
+   object-fit: contain;
+}
